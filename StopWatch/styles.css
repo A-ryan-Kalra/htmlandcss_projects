@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    background: url("https://c4.wallpaperflare.com/wallpaper/832/718/324/watch-desk-stopwatch-wallpaper-preview.jpg") no-repeat center center/ cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 50%;
+    background-color: white;
+    height: 250px;
+    border-radius: 30px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px;
+}
+#timer{
+    width: auto;
+    text-align: center;
+    font-size: 72px;
+    margin: 0 auto;
+    padding: 35px;
+}
+.buttons{
+    text-align: center;
+}
+button{
+    margin: 0 10px;
+    border: none;
+    /* cursor: pointer; */
+}
+button i{
+    font-size: 2rem;
+    padding: 10px;
+    color: white;
+    width: 50px;
+    }
+#play{
+    background-color: green;
+    
+}
+#pause{
+      
+    
+}
+#reset{
+    background-color: red;
+}

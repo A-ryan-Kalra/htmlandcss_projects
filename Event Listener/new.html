@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body class="bod">
+
+<p>Click on a paragraph. An alert box will alert the element that triggered the event.</p>
+
+<p><strong>Note:</strong> The target property returns the element that triggered the event, and not necessarily the eventlistener's element.</p>
+
+<ul id="name">
+<li id="aryan">Aryan</li>
+<li id="kalra">Kalra</li>
+</ul>
+
+<script>
+document.querySelector('.bod').addEventListener('click',function(e){
+
+console.log(e.target.getAttribute('id') + " is clicked");
+e.target.style.color='purple'
+})
+
+</script>
+
+</body>
+</html>

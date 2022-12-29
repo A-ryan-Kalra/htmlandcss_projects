@@ -1,0 +1,34 @@
+body{
+    background-color: white;
+    margin: 20%;
+    margin-top: 10px;
+}
+img{
+    display: inline-block;
+    width: 100%;
+}
+#title{
+    text-align: center;
+    text-shadow: 5px 5px 10px purple;
+}
+#caption{
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div#synopsis{
+    background-color: rgb(46, 139, 87, 0.25);
+    box-shadow: 20px 20px 10px rgb(245, 135, 237);
+    margin: 20px;
+    margin-top: 50px;
+    padding: 25px 25px;
+}
+h1.about{
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 5px 5px 10px;
+}
+footer{
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 35px;
+}

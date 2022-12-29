@@ -1,0 +1,41 @@
+/* p{
+    color: aqua;
+    font-size: none;
+    line-height: 50px;
+    column-gap: none;
+}
+
+h3{
+     color: blueviolet;
+ }
+ul{
+     border: 4px dotted coral; 
+    
+    border-left: 6px dashed blueviolet;
+}
+li{
+    text-shadow: 10px 10px lightgrey;
+}
+div{
+    margin: 20px;
+    padding-right: 30px;
+} */
+/* div .error{                      // represents a descnedant or a child class
+    border: 10px dashed brown;
+} */
+/* #erroragain{                     // represents id starting with #
+    border: 10px dotted purple;
+} */
+/* * Asterisk includes the word youtube somewhere in href to look for youtube in the docs*/
+/* a[href*="youtube"]{                 
+    border: 10px dotted greenyellow;
+    color: rgb(180, 116, 209);
+} */
+/* wheresas $ includes any href ends with a given word, look for in the documents and gets manipulated. */
+/* a[href$=".com"]{                 
+    border: 10px dotted greenyellow;
+    color: rgb(180, 116, 209);
+} */
+div.error{
+    color: aqua;
+}
